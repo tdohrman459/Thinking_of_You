@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#08091b">
+  <title>A Little Something For You</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="sky" class="sky" aria-hidden="true"></div>
+  <div id="petals" class="petals" aria-hidden="true"></div>
+  <div id="cursorGlow" class="cursor-glow" aria-hidden="true"></div>
+
+  <div id="intro" class="intro-screen">
+    <div class="intro-content">
+      <div class="moon" aria-hidden="true"></div>
+      <div class="tiny-heart">♡</div>
+      <p class="eyebrow">A little something</p>
+      <h1>I made only<br><span>for you Raegan Louise.</span></h1>
+      <p class="intro-subtitle">Take your time. It's here whenever you're ready.</p>
+      <button id="openButton" class="glow-button">♡ Open ♡</button>
+      <div class="scroll-hint">↓</div>
+    </div>
+  </div>
+
+  <main id="site" class="site" aria-hidden="true">
+    <section class="hero section">
+      <div class="hero-heart" id="heroHeart" aria-hidden="true">♡</div>
+      <p class="eyebrow">Hey you...</p>
+      <h2 id="heroTitle">I just wanted you to know</h2>
+      <p class="hero-highlight">I'm thinking about you.</p>
+      <div class="typing-dots" id="typingDots">•••</div>
+      <p class="continue">Keep reading <span>↓</span></p>
+    </section>
+
+    <section class="message-section section">
+      <div class="glass-card">
+        <div class="card-heart">♡</div>
+        <h2 id="messageHeading">I hope you're having a really good day.</h2>
+        <p id="messageOne"></p>
+        <p id="messageTwo"></p>
+        <p id="messageThree"></p>
+        <div class="underline"></div>
+      </div>
+    </section>
+
+    <section class="reminder-section section">
+      <div class="reminder-copy">
+        <p class="eyebrow">Just a little reminder</p>
+        <h2>Don't forget...</h2>
+        <div class="reminders">
+          <p><span>☆</span> God has a plan for you.</p>
+          <p><span>♡</span> I Love you.</p>
+          <p><span>✦</span> You don't have to have everything figured out.</p>
+          <p><span>☾</span> I'm always cheering you on.</p>
+        </div>
+        <div class="little-note">No matter what kind of day it is, you matter.</div>
+      </div>
+
+      <div class="constellation-wrap" aria-hidden="true">
+        <svg class="constellation" viewBox="0 0 400 350">
+          <path id="heartPath"
+            d="M200 310
+               C175 282 68 218 68 128
+               C68 73 133 51 169 94
+               L200 132
+               L231 94
+               C267 51 332 73 332 128
+               C332 218 225 282 200 310 Z"/>
+          <g id="constellationStars"></g>
+        </svg>
+      </div>
+    </section>
+
+    <section class="interactive-section section">
+      <p class="eyebrow">One question</p>
+      <h2>Guess how much<br>you mean to me?</h2>
+      <p class="interactive-sub">Pick one. There's a right answer. ♡</p>
+      <div class="answer-buttons">
+        <button data-answer="a little">A little</button>
+        <button data-answer="a lot">A lot</button>
+        <button data-answer="more">More than you know</button>
+      </div>
+      <p id="answerResult" class="answer-result"></p>
+    </section>
+
+    <section class="final-section section">
+      <div class="final-lantern" aria-hidden="true">✦</div>
+      <p class="eyebrow">Don't forget...</p>
+      <h2>I'm always here for you</h2>
+      <p class="final-script">I'm always thinking of you.</p>
+      <p id="finalMessage"></p>
+      <div class="final-heart">♡</div>
+      <p class="ps">P.S. This is always here if you need it. I miss you so much. Mwahhhh. ♡</p>
+      <button id="replayButton" class="small-button">↻ Start again</button>
+    </section>
+  </main>
+
+  <div id="heartDrop" class="heart-drop" aria-hidden="true">
+    <div class="drop-heart">♡</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
