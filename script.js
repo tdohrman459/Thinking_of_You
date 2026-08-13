@@ -4,8 +4,8 @@
 // ============================================================
 
 const CONFIG = {
-  messageHeading: "I hope you're having the best day ever!!!",
-  messageOne: "I just wanted to show you that I'm thinking of you all the time.",
+  messageHeading: "I'm glad I saw you at Mexican",
+  messageOne: "Your birthday surprise was the best.",
   messageTwo: "I hope you're doing great, smiling right now, and remembering how much good you bring into the world.",
   messageThree: "I hope you like this just because message. I just wanted you to have something that might make you smile, anytime.",
   finalMessage: "No matter how good or bad your day is, I hope you remember that you're important to me, I care about you, and I LOVE YOU SO MUCHHHH!",
